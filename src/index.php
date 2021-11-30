@@ -1,57 +1,72 @@
 <!DOCTYPE html>
 <html>
     <title>Moto World</title>
-    <body style="margin: 0%; background-color: #f2f6ff;">
-        <style>
-            #Nav-bar {
-                background-color: #082E72;
-                text-align: center;
-                padding-top: 14px;
-                padding-bottom: 14px;
+    <head>
+        <link rel="stylesheet" type="text/css" href="fonts.css">
+    </head>
+    <style>
+        
+        .header {
+            display : flex;
+            flex-direction: row-reverse;
+            background-color: #082E72;
+            text-align: center;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-            }
-            a {
-                text-align: center;
-                color: white;
-                padding: 14px;
-            }
-            .div1{
-                text-align: center;
-            }
-            #nav-image {
-                /*height: 350px;*/
-                width: 50%;
-                padding-bottom: 30px;          
-            }
-            #image {
-                width: 350px;
-                height: 250px;
-            }
-            #image-table {
-                text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            td {
-                margin: 0%;
-                background-color: white;
-                border-color: #f2f6ff;
-                border-width: 15px;
-                border-style: solid;
-            }            
-        </style>
-        <nav id="Nav-bar">
+        }
+        .header a {
+            font-family: CocoSharp_Light, sans-serif;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: white;
+            padding: 14px;
+            text-decoration: none;
+
+        }
+        .main-wrapper{
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px; 
+        }
+
+        .nav-image {
+            /*height: 350px;*/
+            width: 50%;
+                     
+        }
+        #image {
+            width: 350px;
+            height: 250px;
+        }
+        #image-table {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td {
+            margin: 0%;
+            background-color: white;
+            border-color: #f2f6ff;
+            border-width: 15px;
+            border-style: solid;
+        }            
+    </style>
+    <body style="margin: 0%; background-color: #f2f6ff;">
+       
+        <div class="header">
             <a href="Admin Register.html">Admin Register</a>
             <a href="Admin Login.html">Admin Login</a>
             <a href="User Register.html">User Register</a>
             <a href="User Login.html">User Login</a>
             <a href="Contact.html">Contact</a>
-        </nav>
-        <div class="div1">
-            <img id="nav-image" src="unnamed.png" alt="Logos">
+            </div>
+        <div class="main-wrapper">
+            <img class="wrapper-image" src="../assets/img/unnamed.png" alt="Logos">
         </div>
         <table id="image-table">
-            <caption style="font-size: 30px; font-weight: bold;">PICK YOUR MODEL</caption>
+            <caption style="font-size: 30px; font-weight: bold; font-family: CocoSharp_ExtraBold;">PICK YOUR MODEL</caption>
             <tr>
                 <td>
                     <img id="image" src="https://www.drivespark.com/img/2018/09/2019-bmw-r-1250-gs-front-style-1537422537.jpg" alt="Adventure Tourer">
@@ -81,3 +96,4 @@
             <section style="color: white;">Copyright 2021</section>
         </footer>
     </body>
+    </html>
