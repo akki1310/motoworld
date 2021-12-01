@@ -57,7 +57,7 @@
                     padding-right: 80px;
                 }
                 </style>
-        <form>
+        <form method= "POST">
             <div id="heading">            
             <th>User Registration</th>
             </div>
@@ -87,7 +87,6 @@
                 </div>
             </div>
             <?php
-            
             $Firstname= $_POST['firstName'];
             $Lastname= $_POST['lastName'];
             $Email= $_POST['email'];
@@ -96,10 +95,11 @@
             $conf_pass = $_POST['confirmPassword'];
             
             
+            
             // echo  $Firstname.$Lastname.$Email.$phNo.$pass.$conf_pass ; 
             
             ?>
-            <p><?php echo  $Firstname.$Lastname.$Email.$phNo.$pass.$conf_pass ?></p>
+            <p><?php if($Firstname){echo  $Firstname.$Lastname.$Email.$phNo.$pass.$conf_pass;} ?></p>
         </form>
     </body>
 </html>
