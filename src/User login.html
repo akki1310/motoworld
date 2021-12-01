@@ -57,7 +57,7 @@
                     padding-right: 80px;
                 }
                 </style>
-        <form>
+        <form method="POST">
             <div id="heading">            
             <th>User Login</th>
             </div>
@@ -65,10 +65,10 @@
             <div id="input-container">
                 
                 <div>
-                    <input id="input-box" type="email" name="Email" placeholder="Email">
+                    <input id="input-box" type="email" name="Email" placeholder="Email" required>
                 </div>
                 <div>
-                    <input id="input-box" type="password" name="Password" placeholder="Password">
+                    <input id="input-box" type="password" name="Password" placeholder="Password" required>
                 </div>
                 <div class="button-style">
                     <input id="button" type="submit" value="Login">
