@@ -114,19 +114,15 @@
         <span class="logo-title">MOTOWORLD</span>
         <div class="nav-bar">
             <div class="userlogin-wrapper">
-<<<<<<< HEAD
-                <a class="nav-link" href="User login.html">Login</a>
-                <a class="nav-link" href="User register.html">Sign Up</a>
-=======
                 <a class="nav-link" href="User login.html"> User Login</a>
                 <a class="nav-link" href="User register.php">User Register</a>
->>>>>>> e85658d3ff0c210232fe4f0be7455476aa2db62f
             </div>
         </div>
     </div>
-    <div class="main-wrapper">
-        <!-- <img class="wrapper-image" src="../assets/img/unnamed.png" alt="Logos"> -->
-    </div>
+    <!-- <div class="main-wrapper">
+        <img class="wrapper-image" src="../assets/img/unnamed.png" alt="Logos">
+    </div> -->
+    <div style="display: flex; justify-content: space-around; padding: 35px;"><span style="font-family: CocoSharp_ExtraBold; font-size: 25px; width: 100%; text-align: center;">PICK YOUR MODEL</span></div>
     <div class="content-wrapper">
         <div class="card">
             <img src="https://www.drivespark.com/img/2018/09/2019-bmw-r-1250-gs-front-style-1537422537.jpg" alt="Avatar" style="width:100%">
