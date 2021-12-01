@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <title>Moto World</title>
-
+<?php include 'header.php'; ?>
 <head>
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/body_background.css">
     <link rel="stylesheet" type="text/css" href="css/content-wrapper.css">
 </head>
 <style>
-    .header-wrapper {
+    /* .header-wrapper {
         display: flex;
         background-color: #082E72;
         padding-top: 35px;
@@ -51,7 +51,7 @@
         padding-right: 10px;
         text-decoration: none;
 
-    }
+    } */
 
     .main-wrapper {
         text-align: center;
@@ -110,7 +110,7 @@
 </style>
 
 <body>
-    <div class="header-wrapper">
+    <!-- <div class="header-wrapper">
         <span class="logo-title">MOTOWORLD</span>
         <div class="nav-bar">
             <div class="userlogin-wrapper">
@@ -118,7 +118,7 @@
             <a class="nav-link" href="User register.html">Sign Up</a>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- <div class="main-wrapper">
         <img class="wrapper-image" src="../assets/img/unnamed.png" alt="Logos">
     </div> -->
@@ -157,7 +157,7 @@
 
     </div>
     <footer style="background-color: black; text-align: center; height: 80px; padding-top: 40px;">
-        <section style="color: white;">&copy Copyright 2021</section>
+        <section style="color: white; font-family: CocoSharp_ExtraLight">&copy Copyright 2021</section>
     </footer>
 </body>
 
