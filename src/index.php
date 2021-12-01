@@ -68,6 +68,12 @@
 
     }
 
+    .banner {
+
+        height: 600px;
+        
+    }
+
     #image {
         width: 350px;
         height: 250px;
@@ -100,22 +106,6 @@
     </div>
     <div class="main-wrapper">
         <!-- <img class="wrapper-image" src="../assets/img/unnamed.png" alt="Logos"> -->
-        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel" data-slide-to="1"></li>
-                <li data-target="#carousel" data-slide-to="2"></li>
-            </ol>
-            <!-- Carousel items -->
-            <div class="carousel-inner">
-                <div class="active item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-            </div>
-            <!-- Carousel nav -->
-            <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
-        </div>
     </div>
     <table id="image-table">
         <caption style="font-size: 30px; font-weight: bold; font-family: CocoSharp_ExtraBold;">PICK YOUR MODEL</caption>
