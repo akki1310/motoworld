@@ -58,7 +58,7 @@
         <div class="nav-bar">
             <div class="userlogin-wrapper">
                 <a class="nav-link" href="User login.html">Login</a>
-                <a class="nav-link" href="User register.html">Sign Up</a>
+                <a class="nav-link" href="User register.php">Sign Up</a>
             </div>
         </div>
     </div>

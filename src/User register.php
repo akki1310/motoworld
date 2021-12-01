@@ -57,7 +57,7 @@
                     padding-right: 80px;
                 }
                 </style>
-        <form method= "POST">
+        <form method= "POST" action="index.php">
             <div id="heading">            
             <th>User Registration</th>
             </div>
@@ -65,22 +65,22 @@
             
             <div id="input-container">
                 <div>
-                    <input id="input-box" type="text" name="firstName" placeholder="First-Name">
+                    <input id="input-box" type="text" name="firstName" placeholder="First-Name" required>
                 </div>
                 <div>
-                    <input id="input-box" type="text" name="lastName" placeholder="Last-Name">
+                    <input id="input-box" type="text" name="lastName" placeholder="Last-Name" required>
                 </div>
                 <div>
-                    <input id="input-box" type="email" name="email" placeholder="Email">
+                    <input id="input-box" type="email" name="email" placeholder="Email" required>
                 </div>
                 <div>
-                    <input id="input-box" type="number" name="phoneNumber" placeholder="Phone Number">
+                    <input id="input-box" type="number" name="phoneNumber" placeholder="Phone Number" required>
                 </div>
                 <div>
-                    <input id="input-box" type="password" name="password" placeholder="Password">
+                    <input id="input-box" type="password" name="password" placeholder="Password" required>
                 </div>
                 <div>
-                    <input id="input-box" type="password" name="confirmPassword" placeholder="Confirm Password">
+                    <input id="input-box" type="password" name="confirmPassword" placeholder="Confirm Password" required>
                 </div>
                 <div class="button-style">
                     <input id="button" type="submit" value="Register">
