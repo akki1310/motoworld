@@ -5,10 +5,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/body_background.css">
-    <link rel="stylesheet/less" type="text/css" href="css/index_carousel.less" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="js/index_carousel.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/content-wrapper.css">
 </head>
 <style>
     .header-wrapper {
@@ -71,27 +68,45 @@
     .banner {
 
         height: 600px;
-        
+
     }
 
-    #image {
-        width: 350px;
+    .content-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        justify-content: space-around;
+    }
+
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin: 35px;
+    }
+
+    .card img{
         height: 250px;
+        width: 300px;
     }
 
-    #image-table {
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    /* Add some padding inside the card container */
+    .container {
+        padding: 2px 16px;
+    }
+
+    .img-captions{
+        font-family: CocoSharp_Light;
+        font-size: 18px;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    td {
-        margin: 0%;
-        background-color: white;
-        border-color: #f2f6ff;
-        border-width: 15px;
-        border-style: solid;
-    }
+    
 </style>
 
 <body>
@@ -99,48 +114,48 @@
         <span class="logo-title">MOTOWORLD</span>
         <div class="nav-bar">
             <div class="userlogin-wrapper">
-                <a class="nav-link" href="User login.html"> User Login</a>
-                <a class="nav-link" href="User register.html">User Register</a>
+                <a class="nav-link" href="User login.html">Login</a>
+                <a class="nav-link" href="User register.html">Sign Up</a>
             </div>
         </div>
     </div>
     <div class="main-wrapper">
         <!-- <img class="wrapper-image" src="../assets/img/unnamed.png" alt="Logos"> -->
     </div>
-    <table id="image-table">
-        <caption style="font-size: 30px; font-weight: bold; font-family: CocoSharp_ExtraBold;">PICK YOUR MODEL</caption>
-        <tr>
-            <td>
-                <img id="image" src="https://www.drivespark.com/img/2018/09/2019-bmw-r-1250-gs-front-style-1537422537.jpg" alt="Adventure Tourer">
-                <br>
-                <div style="padding: 15px;">Adventure Tourer</div>
-            </td>
-            <td>
-                <img id="image" src="https://bikebrewers.com/wp-content/uploads/2015/07/cx500-cafe-racer-1-1024x683.jpg" alt="Cafe Racer">
-                <br>
-                <div style="padding: 15px;">Cafe Racer</div>
-            </td>
-            <td>
-                <img id="image" src="https://2yrh403fk8vd1hz9ro2n46dd-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/2020-harley-low-rider-buyers-guide-specs-price-1.jpg" alt="Koofri">
-                <br>
-                <div style="padding: 15px;">Cruiser</div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img id="image" src="https://images.carandbike.com/bike-images/large/kawasaki/ninja-h2/kawasaki-ninja-h2.jpg?v=6" alt="Sports">
-                <br>
-                <div style="padding: 15px;">Soprts</div>
-            </td>
-            <td>
-                <img id="image" src="https://www.mototechindia.com/wp-content/uploads/2020/03/best-bikes-under-3-lakhs.jpeg" alt="Full Inventory">
-                <br>
-                <div style="padding: 15px;">Full Inventory</div>
-            </td>
-        </tr>
-    </table>
+    <div class="content-wrapper">
+        <div class="card">
+            <img src="https://www.drivespark.com/img/2018/09/2019-bmw-r-1250-gs-front-style-1537422537.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <span class="img-captions"><h4><b>Adventure Tourer</b></h4></span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://bikebrewers.com/wp-content/uploads/2015/07/cx500-cafe-racer-1-1024x683.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <span class="img-captions"><h4><b>Cafe Racer</b></h4></span>
+            </div>
+        </div><div class="card">
+            <img src="https://2yrh403fk8vd1hz9ro2n46dd-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/2020-harley-low-rider-buyers-guide-specs-price-1.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <span class="img-captions"><h4><b>Cruiser</b></h4></span>
+            </div>
+        </div><div class="card">
+            <img src="https://images.carandbike.com/bike-images/large/kawasaki/ninja-h2/kawasaki-ninja-h2.jpg?v=6" alt="Avatar" style="width:100%">
+            <div class="container">
+                <span class="img-captions"><h4><b>Sports</b></h4></span>
+            </div>
+        </div><div class="card">
+            <img src="https://www.mototechindia.com/wp-content/uploads/2020/03/best-bikes-under-3-lakhs.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <span class="img-captions"><h4><b>Full Inventory</b></h4></span>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
     <footer style="background-color: black; text-align: center; height: 80px; padding-top: 40px;">
-        <section style="color: white;">Copyright 2021</section>
+        <section style="color: white;">&copy Copyright 2021</section>
     </footer>
 </body>
 
