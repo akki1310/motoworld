@@ -122,7 +122,7 @@
     <!-- <div class="main-wrapper">
         <img class="wrapper-image" src="../assets/img/unnamed.png" alt="Logos">
     </div> -->
-    <div style="display: flex; justify-content: space-around; padding: 35px;"><span style="font-family: CocoSharp_ExtraBold; font-size: 25px; width: 100%; text-align: center;">PICK YOUR MODEL</span></div>
+    <div style="display: flex; justify-content: space-around; padding-top: 35px; padding-bottom: 15px;"><span style="font-family: CocoSharp_ExtraBold; font-size: 45px; width: 100%; text-align: center;">PICK YOUR MODEL</span></div>
     <div class="content-wrapper">
         <div class="card">
             <img src="https://www.drivespark.com/img/2018/09/2019-bmw-r-1250-gs-front-style-1537422537.jpg" alt="Avatar" style="width:100%">
