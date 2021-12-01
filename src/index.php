@@ -114,8 +114,8 @@
         <span class="logo-title">MOTOWORLD</span>
         <div class="nav-bar">
             <div class="userlogin-wrapper">
-                <a class="nav-link" href="User login.html"> User Login</a>
-                <a class="nav-link" href="User register.php">User Register</a>
+                <a class="nav-link" href="User login.html">Login</a>
+            <a class="nav-link" href="User register.html">Sign Up</a>
             </div>
         </div>
     </div>
