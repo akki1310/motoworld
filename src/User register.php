@@ -61,30 +61,45 @@
             <div id="heading">            
             <th>User Registration</th>
             </div>
-
+            
+            
             <div id="input-container">
                 <div>
-                    <input id="input-box" type="text" name="First Name" placeholder="First-Name">
+                    <input id="input-box" type="text" name="firstName" placeholder="First-Name">
                 </div>
                 <div>
-                    <input id="input-box" type="text" name="Last Name" placeholder="Last-Name">
+                    <input id="input-box" type="text" name="lastName" placeholder="Last-Name">
                 </div>
                 <div>
-                    <input id="input-box" type="email" name="Email" placeholder="Email">
+                    <input id="input-box" type="email" name="email" placeholder="Email">
                 </div>
                 <div>
-                    <input id="input-box" type="number" name="Phone Number" placeholder="Phone Number">
+                    <input id="input-box" type="number" name="phoneNumber" placeholder="Phone Number">
                 </div>
                 <div>
-                    <input id="input-box" type="password" name="Password" placeholder="Password">
+                    <input id="input-box" type="password" name="password" placeholder="Password">
                 </div>
                 <div>
-                    <input id="input-box" type="password" name="Confirm password" placeholder="Confirm Password">
+                    <input id="input-box" type="password" name="confirmPassword" placeholder="Confirm Password">
                 </div>
                 <div class="button-style">
                     <input id="button" type="submit" value="Register">
                 </div>
             </div>
+            <?php
+            
+            $Firstname= $_POST['firstName'];
+            $Lastname= $_POST['lastName'];
+            $Email= $_POST['email'];
+            $phNo = $_POST['phoneNumber'];
+            $pass = $_POST['password'];
+            $conf_pass = $_POST['confirmPassword'];
+            
+            
+            // echo  $Firstname.$Lastname.$Email.$phNo.$pass.$conf_pass ; 
+            
+            ?>
+            <p><?php echo  $Firstname.$Lastname.$Email.$phNo.$pass.$conf_pass ?></p>
         </form>
     </body>
 </html>
