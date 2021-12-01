@@ -94,7 +94,7 @@
         <div class="nav-bar">
             <div class="userlogin-wrapper">
                 <a class="nav-link" href="User login.html"> User Login</a>
-                <a class="nav-link" href="User register.html">User Register</a>
+                <a class="nav-link" href="User register.php">User Register</a>
             </div>
         </div>
     </div>
