@@ -114,42 +114,35 @@
         <span class="logo-title">MOTOWORLD</span>
         <div class="nav-bar">
             <div class="userlogin-wrapper">
-                <a class="nav-link" href="User login.html">Login</a>
-            <a class="nav-link" href="User register.html">Sign Up</a>
+                <a class="nav-link" href="index.php">Home</a>
             </div>
         </div>
     </div>
     <!-- <div class="main-wrapper">
         <img class="wrapper-image" src="../assets/img/unnamed.png" alt="Logos">
     </div> -->
-    <div style="display: flex; justify-content: space-around; padding-top: 35px; padding-bottom: 15px;"><span style="font-family: CocoSharp_ExtraBold; font-size: 45px; width: 100%; text-align: center;">PICK YOUR MODEL</span></div>
+    <div style="display: flex; justify-content: space-around; padding-top: 35px; padding-bottom: 15px;"><span style="font-family: CocoSharp_ExtraBold; font-size: 45px; width: 100%; text-align: center;">Adventure Tourer</span></div>
     <div class="content-wrapper">
         <div class="card">
-            <a href="Adventure_tourer.php">
-            <img src="../assets/img/Adventure_tourer.jpg" alt="Adventure_tourer" style="width:100%"></a>
+            <img src="../assets/img/adt1.jpg" alt="adt1" style="width:100%">
             <div class="container">
-                <span class="img-captions"><h4><b>Adventure Tourer</b></h4></span>
+                <span class="img-captions"><h4><b>BMW GS 1250</b></h4></span>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/img/Cafe_racer.jpg" alt="Cafe_racer" style="width:100%">
+            <img src="../assets/img/adt2.jpg" alt="Himalyan" style="width:100%">
             <div class="container">
-                <span class="img-captions"><h4><b>Cafe Racer</b></h4></span>
+                <span class="img-captions"><h4><b>Himalayan</b></h4></span>
             </div>
         </div><div class="card">
-            <img src="../assets/img/Cruiser.jpg" alt="Cruiser" style="width:100%">
+            <img src="../assets/img/adt3.jpg" alt="KTM 290" style="width:100%">
             <div class="container">
-                <span class="img-captions"><h4><b>Cruiser</b></h4></span>
+                <span class="img-captions"><h4><b>KTM 290</b></h4></span>
             </div>
         </div><div class="card">
-            <img src="../assets/img/Sports.jpg" alt="Sports" style="width:100%">
+            <img src="../assets/img/Triumph_tiger.jpg" alt="Triumph_tiger" style="width:100%">
             <div class="container">
-                <span class="img-captions"><h4><b>Sports</b></h4></span>
-            </div>
-        </div><div class="card">
-            <img src="../assets/img/Full_inventory.jpg" alt="Full_inventory" style="width:100%">
-            <div class="container">
-                <span class="img-captions"><h4><b>Full Inventory</b></h4></span>
+                <span class="img-captions"><h4><b>Triumph Tiger</b></h4></span>
             </div>
         </div>
 
