@@ -125,23 +125,23 @@
     <div style="display: flex; justify-content: space-around; padding-top: 35px; padding-bottom: 15px;"><span style="font-family: CocoSharp_ExtraBold; font-size: 45px; width: 100%; text-align: center;">PICK YOUR MODEL</span></div>
     <div class="content-wrapper">
         <div class="card">
-            <img src="https://www.drivespark.com/img/2018/09/2019-bmw-r-1250-gs-front-style-1537422537.jpg" alt="Avatar" style="width:100%">
+            <img src="../assets/img/Adventure_tourer.jpg" alt="Avatar" style="width:100%">
             <div class="container">
                 <span class="img-captions"><h4><b>Adventure Tourer</b></h4></span>
             </div>
         </div>
         <div class="card">
-            <img src="https://bikebrewers.com/wp-content/uploads/2015/07/cx500-cafe-racer-1-1024x683.jpg" alt="Avatar" style="width:100%">
+            <img src="../assets/img/Cafe_racer.jpg" alt="Avatar" style="width:100%">
             <div class="container">
                 <span class="img-captions"><h4><b>Cafe Racer</b></h4></span>
             </div>
         </div><div class="card">
-            <img src="https://2yrh403fk8vd1hz9ro2n46dd-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/2020-harley-low-rider-buyers-guide-specs-price-1.jpg" alt="Avatar" style="width:100%">
+            <img src="../assets/img/Cruiser.jpg" alt="Avatar" style="width:100%">
             <div class="container">
                 <span class="img-captions"><h4><b>Cruiser</b></h4></span>
             </div>
         </div><div class="card">
-            <img src="https://images.carandbike.com/bike-images/large/kawasaki/ninja-h2/kawasaki-ninja-h2.jpg?v=6" alt="Avatar" style="width:100%">
+            <img src="../assets/img/Sports.jpg" alt="Avatar" style="width:100%">
             <div class="container">
                 <span class="img-captions"><h4><b>Sports</b></h4></span>
             </div>
