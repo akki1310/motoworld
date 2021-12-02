@@ -8,6 +8,13 @@
     <link rel="stylesheet" type="text/css" href="css/content-wrapper.css">
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
     .header-wrapper {
         display: flex;
         background-color: #082E72;
@@ -27,7 +34,6 @@
     }
 
     .logo-title {
-        font-family: CocoSharp_ExtraBold;
         font-size: 30px;
         color: white;
         padding-left: 10px;
@@ -44,8 +50,7 @@
     }
 
     .nav-link {
-        font-family: CocoSharp_Light, sans-serif;
-        font-weight: bold;
+        font-weight: medium;
         color: white;
         padding-left: 10px;
         padding-right: 10px;
@@ -101,7 +106,7 @@
     }
 
     .img-captions {
-        font-family: CocoSharp_Light;
+        font-weight: lighter;
         font-size: 18px;
         text-align: center;
     }
@@ -129,7 +134,7 @@
     <div style="display: flex; justify-content: space-around; padding-top: 35px; padding-bottom: 15px;"><span style="font-family: CocoSharp_ExtraBold; font-size: 45px; width: 100%; text-align: center;">Adventure Tourer</span></div>
     <div class="content-wrapper">
         <div class="card">
-            <img src="../assets/img/adt1.jpg" alt="adt1" style="width:100%">
+          <a href="BMW-GS.php"><img src="../assets/img/adt1.jpg" alt="adt1" style="width:100%"></a>
             <div class="container">
                 <span class="img-captions">
                     <h4><b>BMW GS 1250</b></h4>
@@ -165,7 +170,7 @@
 
     </div>
     <footer style="background-color: black; text-align: center; height: 80px; padding-top: 40px;">
-        <section style="color: white;">&copy Copyright 2021</section>
+        <section style="color: white; font-family:Poppins, sans-serif; font-weight: lighter;">&copy MOTOWORLD 2021</section>
     </footer>
 </body>
 
