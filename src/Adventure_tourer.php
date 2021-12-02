@@ -111,10 +111,9 @@
 
 <body>
     <div class="header-wrapper">
-        <span class="logo-title">MOTOWORLD</span>
+    <a href="index.php"> <span class="logo-title">MOTOWORLD</span></a>
         <div class="nav-bar">
             <div class="userlogin-wrapper">
-                <a class="nav-link" href="index.php">Home</a>
             </div>
         </div>
     </div>

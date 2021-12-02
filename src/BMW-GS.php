@@ -1,4 +1,2 @@
-<?php
-include 'header.php';
-?>
+
 
