@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>Moto World</title>
-
+<?php session_start(); ?>
 <head>
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/body_background.css">
@@ -85,7 +85,7 @@
         margin: 35px;
     }
 
-    .card img{
+    .card img {
         height: 250px;
         width: 300px;
     }
@@ -100,20 +100,26 @@
         padding: 2px 16px;
     }
 
-    .img-captions{
+    .img-captions {
         font-family: CocoSharp_Light;
         font-size: 18px;
         text-align: center;
     }
-
-    
 </style>
 
 <body>
     <div class="header-wrapper">
-    <a href="index.php"> <span class="logo-title">MOTOWORLD</span></a>
+        <a href="index.php"> <span class="logo-title">MOTOWORLD</span></a>
         <div class="nav-bar">
             <div class="userlogin-wrapper">
+                <?php
+                if (!isset($_SESSION['username'])) {
+                    header("Location: userlogin.php");
+                } else {
+                    echo '<span class="nav-link"> Hi ' . $_SESSION['username'] . '</span>';
+                    echo '<a class="nav-link" href="logout.php"> Logout </a>';
+                }
+                ?>
             </div>
         </div>
     </div>
@@ -125,23 +131,33 @@
         <div class="card">
             <img src="../assets/img/adt1.jpg" alt="adt1" style="width:100%">
             <div class="container">
-                <span class="img-captions"><h4><b>BMW GS 1250</b></h4></span>
+                <span class="img-captions">
+                    <h4><b>BMW GS 1250</b></h4>
+                </span>
             </div>
         </div>
         <div class="card">
             <img src="../assets/img/adt2.jpg" alt="Himalyan" style="width:100%">
             <div class="container">
-                <span class="img-captions"><h4><b>Himalayan</b></h4></span>
+                <span class="img-captions">
+                    <h4><b>Himalayan</b></h4>
+                </span>
             </div>
-        </div><div class="card">
+        </div>
+        <div class="card">
             <img src="../assets/img/adt3.jpg" alt="KTM 290" style="width:100%">
             <div class="container">
-                <span class="img-captions"><h4><b>KTM 290</b></h4></span>
+                <span class="img-captions">
+                    <h4><b>KTM 290</b></h4>
+                </span>
             </div>
-        </div><div class="card">
+        </div>
+        <div class="card">
             <img src="../assets/img/Triumph_tiger.jpg" alt="Triumph_tiger" style="width:100%">
             <div class="container">
-                <span class="img-captions"><h4><b>Triumph Tiger</b></h4></span>
+                <span class="img-captions">
+                    <h4><b>Triumph Tiger</b></h4>
+                </span>
             </div>
         </div>
 

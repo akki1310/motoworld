@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <title>Moto World</title>
-</php session_start() ?>
+<?php session_start() ?>
+
 <head>
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/body_background.css">
@@ -100,7 +101,15 @@
         <a href="index.php"> <span class="logo-title">MOTOWORLD</span></a>
         <div class="nav-bar">
             <div class="userlogin-wrapper">
-                <a class="nav-link" href="userlogin.php">Login</a>
+                <?php
+                if (!isset($_SESSION['username'])) {
+                    echo '<a class="nav-link" href="userlogin.php">Login</a>';
+                } else {
+                    echo '<span class="nav-link"> Hi ' . $_SESSION['username'] . '</span>';
+                    echo '<a class="nav-link" href="logout.php"> Logout </a>';
+                }
+                ?>
+
             </div>
         </div>
     </div>
